@@ -1,0 +1,27 @@
+cast #16 cuizcuiz
+
+openSUSE para todos os gostos!
+
+O Usuário final
+
+
+
+
+- WTF
+
+- Alcool ou Gasolina? (GNOME ou KDE)
+- 
+
+
+Para usuário final
+Avançados
+- A próxima versão (Milestones)
+- Debaixo do capô (sistema base)
+-- mostrar yum funcionando no openSUSE
+
+
+Desenvolvedores e Sysadmins
+OBS
+YaST
+WebYaST
+SUSEstudio

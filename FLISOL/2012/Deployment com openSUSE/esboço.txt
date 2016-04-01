@@ -1,0 +1,48 @@
+The manual install process (very brief)
+ Network booting in a PC environment (very brief)
+– PXE, DHCP, TFTP
+Installation servers for Linux systems
+– PXELinux, DHCP, TFTP, NFS
+Automating Red Hat/Fedora installs, Kickstart
+Automating SUSE installs, AutoYaST
+
+
+Uma instalação convencional
+1 Boot pelo CD/DVD/USB
+2 Inserir informações básicas necessárias
+3 Leitura de pacotes do CD/DVD/USB
+4 A ferramenta completa a instalação básica do sistema
+
+Problemas em uma instalação convencional:
+1 Boot pelo CD/DVD/USB
+1.1 Requer um drive e disco para cada sistema;
+1.2 Pode ser difícil conseguir acesso físico ao host;
+1.3 Não escalável
+
+2 Inserir informações básicas necessárias:
+2.1 Requer um valioso tempo do administrador;
+2.2 Possíveis erros, principalmente quando há instalações múltiplas;
+2.3 Não escalável
+
+3 Leitura de pacotes do CD/DVD/USB
+3.1 Ver item #01
+
+4 A ferramenta completa a instalação básica do sistema
+4.1 Certamente necessitará de uma configuração pós-instalação
+4.2 ver item 2.1
+
+Resolvendo os problemas de instalações convencionais
+1 Boot por uma mídia local (CD/DVD/USB)
+- Uso da rede ( diskless ) para instalação da imagem de instalação
+
+2 Inserir informações básicas necessárias
+- Especificar os parâmetros de configuração com antecedência, em seguida, ler
+* Da própria mídia local ( problema de acesso físico )
+* Pela rede, usando TFTP, NFS, HTTP, etc.
+
+3 Leitura de pacotes do CD/DVD/USB
+- Repositório de rede, via NFS, TFTP, HTTP, CIFS...
+
+4 Configuração pós-instalação
+
+

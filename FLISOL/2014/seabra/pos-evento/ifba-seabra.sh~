@@ -1,0 +1,3 @@
+convert 01.jpg -gravity south \
+          -stroke  none   -pointsize 60 -fill white  -gravity center   -annotate +0-15 '$NOME' \
+          $NOME.jpg
