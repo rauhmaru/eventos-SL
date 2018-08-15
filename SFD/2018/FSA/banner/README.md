@@ -1,0 +1,1 @@
+arquivos usados no banner
